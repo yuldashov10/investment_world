@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "investment_world"
+version = "0.1.0"
+description = "Оценка эффективности инвестиционных проектов"
+authors = ["Shoxrux Yuldashov <deagleshox@mail.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0.4"
+python-decouple = "^3.8"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+flake8 = "^7.1.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
