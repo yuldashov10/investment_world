@@ -1,0 +1,11 @@
+.git/
+.vscode/
+.idea/
+**/__pycache__/
+.venv/
+.env/
+.env
+db.sqlite3
+db.sqlite3.bak
+Dockerfile
+docker-compose.yml
